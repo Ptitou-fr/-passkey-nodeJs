@@ -1,15 +1,40 @@
 {
-  "name": "@passkey/nodejs",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "typescript": "^5.2.2"
-  }
+    "name": "@passkey/nodejs",
+    "version": "0.1.0",
+    "description": "BackOffice for @Passkey family components",
+    "main": "dist/index.js",
+    "private": false,
+    "scripts": {
+        "format": "prettier --write \"src/**/*.{js,ts,jsx,tsx,json,css,md}\"",
+        "format-check": "prettier --check \"src/**/*.{js,ts,jsx,tsx,json,css,md}\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "nodeJs",
+        "react",
+        "react-native",
+        "ios",
+        "android",
+        "passkey",
+        "authentication",
+        "auth",
+        "password"
+    ],
+    "repository": "https://github.com/Ptitou-fr/-passkey-nodeJs",
+    "bugs": {
+        "url": "https://github.com/Ptitou-fr/-passkey-nodeJs/issues"
+    },
+    "homepage": "https://github.com/Ptitou-fr/-passkey-nodeJs#readme",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "engines": {
+        "node": ">=14"
+    },
+    "author": "Patrick MENGARDUQUE <patrick@mengarduque.com> (https://www.linkedin.com/in/patrick-mengarduque-988b63132/)",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "^3.1.0",
+        "typescript": "^5.2.2"
+    }
 }

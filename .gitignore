@@ -12,6 +12,7 @@ npm-debug.log
 
 # JetBrains IDE #
 .idea/
+.idea
 *.iml
 
 # OS generated files #
