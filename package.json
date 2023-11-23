@@ -34,7 +34,11 @@
     "author": "Patrick MENGARDUQUE <patrick@mengarduque.com> (https://www.linkedin.com/in/patrick-mengarduque-988b63132/)",
     "license": "ISC",
     "devDependencies": {
+        "@types/node": "^20.9.2",
         "prettier": "^3.1.0",
         "typescript": "^5.2.2"
+    },
+    "dependencies": {
+        "fido2-lib": "^3.4.3"
     }
 }
